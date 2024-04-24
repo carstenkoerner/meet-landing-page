@@ -1,0 +1,82 @@
+@mixin Font-H1() {
+  font-family: "RedHatDisplay";
+  font-weight: 900;
+  font-size: 4rem;
+  line-height: 4rem;
+}
+
+@mixin Font-H2-smartphone() {
+  font-family: "RedHatDisplay";
+  font-weight: 900;
+  font-size: 2.5rem;
+  line-height: 2.75rem;
+  color: $clr-black;
+  margin: 0;
+}
+
+@mixin Font-H2-tablett() {
+  font-family: "RedHatDisplay";
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 3rem;
+  color: $clr-black;
+  margin: 0;
+}
+
+@mixin Font-H3() {
+  font-family: "RedHatDisplay";
+  font-weight: 900;
+  font-size: 2rem;
+  line-height: 2.25rem;
+  color: $clr-black;
+}
+
+@mixin Font-H3-Tablett() {
+  font-family: "RedHatDisplay";
+  font-weight: 900;
+  font-size: 2.5rem;
+  line-height: 2.75rem;
+  color: $clr-black;
+}
+
+@mixin Font-Overline() {
+  font-family: "RedHatDisplay";
+  font-weight: 900;
+  font-size: 1rem;
+  line-height: 1.625rem;
+  letter-spacing: 0.25rem;
+  text-transform: uppercase;
+  color: $clr-grayish-cyan;
+}
+
+@mixin Font-Body() {
+  font-family: "RedHatDisplay";
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.625rem;
+  color: $clr-grey;
+}
+
+@mixin Font-Body-Desktop() {
+  font-family: "RedHatDisplay";
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.625rem;
+  color: $clr-grey;
+}
+
+@mixin Font-Button() {
+  font-family: "RedHatDisplay";
+  font-weight: 900;
+  font-size: 1rem;
+  line-height: 1.625rem;
+  color: $clr-white;
+}
+
+@mixin Font-Body-Footer() {
+  font-family: "RedHatDisplay";
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.625rem;
+  color: $clr-white;
+}

@@ -1,0 +1,298 @@
+@media (width > 766px) {
+
+  .header__img-header__container-tablet-mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    
+    &__heading {
+        @include Font-H2-tablett;
+        width: 21.25rem;
+        margin-top: 4.7rem;
+        text-align: center;
+    }
+
+    &__description {
+      margin-top: 1.6rem;
+    }
+
+    &__buttons {
+      flex-direction: row;
+      gap: 0.9rem;
+    }
+  }
+
+  .path {
+    margin-top: 4.9rem;
+  }
+
+  .path.two {
+    margin-top: 3.35rem;
+  }
+
+  .circle {
+    width: 3.5rem;
+    height: 3.5rem;
+    
+    & span {
+      top: 0.9375rem;
+      left: 1.125rem;
+    }
+  }
+
+  .main__grid-container {
+    margin-top: 4rem;
+    width: 43.0625rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0.6rem;
+
+    &__woman-videocall {
+      grid-column: 1/2;
+      grid-row: 1/2;
+    }
+    
+    &__women-videochatting {
+      grid-column: 2/3;
+      grid-row: 1/2;
+    }
+    
+    &__men-meeting {
+      grid-column: 3/4;
+      grid-row: 1/2;
+    }
+    
+    &__men-texting {
+      grid-column: 4/5;
+      grid-row: 1/2;
+    }
+  }
+
+  .main {
+    &__overline {
+      margin-top: 3.2rem;
+      @include Font-Overline;
+      text-align: center;
+    }
+    
+    &__heading {
+      margin-top: 0.92rem;
+      width: 27.8125rem;
+      text-align: center;
+      @include Font-H3-Tablett;
+    }
+    
+    &__content {
+      margin-top: 2.1rem;
+      text-align: center;
+      max-width: 35.8125rem;
+      @include Font-Body;
+    }
+  }
+
+  .footer {
+    height: 26.75rem;
+    background-image: 
+    linear-gradient(rgba(77, 150, 169, 0.9), rgba(77, 150, 169, 0.9)),  
+    url("../assets/tablet/image-footer.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position-y: top;
+    z-index: -1;
+    
+    &__heading {
+      margin-top: 1.6rem;
+      width: 25rem;
+      @include Font-H3-Tablett;
+      color: $clr-white;
+      text-align: center;
+    }
+    
+    &__content {
+      margin-top: 2rem;
+      @include Font-Body-Footer;
+      width: 35.8125rem;
+      text-align: center;
+      margin-bottom: 1.53rem;
+    }
+  }
+} 
+
+// ##############################################
+
+@media (width > 1439px) {
+
+  .header__logo {
+    margin-top: 4.95rem;
+  }
+
+  .header__img-header__container-tablet-mobile {
+    display: none;
+  }
+
+  .header__img-header__container-desktop {
+    display: grid;
+    width: 90rem;
+    margin-top: 6.3rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 3rem;
+    position: relative;
+
+    &__img1 {
+      grid-column: 1/2;
+      grid-row: 1/2;
+      margin-top: 0.95rem;
+      position: absolute;
+      right: 0%;
+    }
+
+    &__img2 {
+      grid-column: 3/4;
+      grid-row: 1/2;
+      margin-top: 0.95rem;
+    }
+    
+    &__centre {
+      grid-column: 2/3;
+      grid-row: 1/2;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      
+      &__heading {
+          @include Font-H1;
+          color: $clr-black;
+          width: 27.8125;
+          text-align: center;
+      }
+  
+      &__description {
+        margin-top: 2.15rem;
+        @include Font-Body-Desktop;
+        width: 33.75rem;
+        text-align: center;
+      }
+  
+      &__buttons {
+        margin-top: 2rem;
+      }
+    }
+
+  }
+
+  .btn__whatisit {
+    margin-left: 0.75rem;
+  }
+
+  .path {
+    margin-top: 6.8rem;
+  }
+
+  .path.two {
+    margin-top: 3.35rem;
+  }
+
+  .circle {
+    width: 3.5rem;
+    height: 3.5rem;
+    
+    & span {
+      top: 0.9375rem;
+      left: 1.125rem;
+    }
+  }
+
+  .main__grid-container {
+    margin-top: 4rem;
+    width: 69.375rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 1.85rem;
+
+    &__woman-videocall {
+      grid-column: 1/2;
+      grid-row: 1/2;
+    }
+    
+    &__women-videochatting {
+      grid-column: 2/3;
+      grid-row: 1/2;
+    }
+    
+    &__men-meeting {
+      grid-column: 3/4;
+      grid-row: 1/2;
+    }
+    
+    &__men-texting {
+      grid-column: 4/5;
+      grid-row: 1/2;
+    }
+  }
+
+  .main {
+    &__overline {
+      margin-top: 4.95rem;
+      @include Font-Overline;
+      text-align: center;
+    }
+    
+    &__heading {
+      margin-top: 0.92rem;
+      width: 27.8125rem;
+      text-align: center;
+      @include Font-H3-Tablett;
+    }
+    
+    &__content {
+      margin-top: 2.1rem;
+      text-align: center;
+      max-width: 32rem;
+      @include Font-Body-Desktop;
+    }
+  }
+
+  .path-circle__container {
+    margin-top: -0.5rem;
+  }
+
+  .footer {
+    height: 19.1875rem;
+    flex-direction: row;
+    gap: 4.8rem;
+    background-image: 
+    linear-gradient(rgba(77, 150, 169, 0.9), rgba(77, 150, 169, 0.9)),  
+    url("../assets/desktop/image-footer.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position-y: top;
+    z-index: -1;
+    
+    &__heading {
+      margin-top: 1.6rem;
+      width: 25rem;
+      @include Font-H3-Tablett;
+      color: $clr-white;
+      text-align: left;
+    }
+    
+    &__content {
+      margin-top: 2rem;
+      @include Font-Body-Footer;
+      width: 21.875rem;
+      text-align: left;
+      margin-bottom: 1.53rem;
+    }
+  }
+  .btn__download-violette {
+    margin-left: 15px;
+    margin-top: 10px;
+  }
+} 
